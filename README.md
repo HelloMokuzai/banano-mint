@@ -1,4 +1,4 @@
-# Banano MINT
+# BANANO MINT
 
 View, Send & Create NFT's on the BANANO network
 
