@@ -1,4 +1,5 @@
 # Banano MINT
 
-Website Template for the Banano MINT project.
+View, Send & Create NFT's on the BANANO network
+
 Visit: https://hellomokuzai.github.io/banano-mint/
