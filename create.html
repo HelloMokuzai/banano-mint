@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Banano MINT | View, Send & Create NFT's on the BANANO network!</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <meta property="og:site_name" content="Banano MINT">
+		<meta property="og:type" content="article">
+		<meta property="og:url" content="#">
+		<meta property="og:image" content="#">
+		<meta property="og:description" content="View, Send & Create NFT's on the BANANO network!">
+		<meta name="banano"  content="ban_3j8gwrkc7qgx11rrncdw8bzuuo4ojwp3xkawspefm3sbac3s5i6f48dgewfd"/>
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="single is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Banano MINT</a></h1>
+						<nav class="links">
+							<ul>
+								<li><a href="create.html">Create</a></li>
+								<li><a href="view.html">NFT Viewer</a></li>
+								<li><a href="faq.html">FAQ</a></li>
+								<li><a href="contact.html">Contact</a></li>
+							</ul>
+						</nav>
+						<nav class="main">
+							<ul>
+								<li class="menu">
+									<a class="fa-bars" href="#menu">Menu</a>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<section id="menu">
+
+						<!-- Links -->
+							<section>
+								<ul class="links">
+									<li>
+										<a href="create.html">
+											<h3>Create</h3>
+											<p>MINT an NFT on the BANANO network!</p>
+										</a>
+									</li>
+									<li>
+										<a href="view.html">
+											<h3>NFT Viewer</h3>
+											<p>View NFT's in your wallet!</p>
+										</a>
+									</li>
+									<li>
+										<a href="faq.html">
+											<h3>FAQ</h3>
+											<p>Need help? See FAQ for solutions.</p>
+										</a>
+									</li>
+									<li>
+										<a href="contact.html">
+											<h3>Contact</h3>
+											<p>Get in touch with the Banano MINT team!</p>
+										</a>
+									</li>
+								</ul>
+							</section>
+
+						<!-- Actions -->
+							<section>
+								<ul class="actions stacked">
+									<li><a href="#" class="button large fit icon solid fa-plus">Get Premium</a></li>
+								</ul>
+							</section>
+
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<article class="post">
+								<header>
+									<div class="title">
+										<h2><b>Create</b></h2>
+										<p>MINT an NFT on the BANANO network!</p>
+									</div>
+								</header>
+								<h3>NFT Creator - V1.0</h3>
+									<form method="post" action="#">
+										<div class="row gtr-uniform">
+											<div class="col-6 col-12-xsmall">
+												<input type="text" name="NFT-name" id="name" value="" placeholder="NFT Name" />
+											</div>
+											<div class="col-6 col-12-xsmall">
+												<input type="text" name="NFT-seed" id="seed" value="" placeholder="Seed" />
+											</div>
+                                            <div class="col-12">
+												<textarea name="NFT-description" id="description" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+											<div class="col-12">
+												<form action="/submit_NFT.php">
+  													<input type="file" id="file" name="filename">
+												</form>
+											</div>
+                                            <div class="col-12">
+												<input type="text" name="NFT-supply" id="supply" value="" placeholder="Max Supply (0 for unlimited)" />
+											</div>
+                                            <div class="col-6 col-12-xsmall">
+												<input type="text" name="API-key" id="key" value="" placeholder="API Key" />
+											</div>
+											<div class="col-6 col-12-xsmall">
+												<input type="text" name="API-secret" id="secret" value="" placeholder="API Secret" />
+											</div>
+											<div class="col-12">
+												<ul class="actions">
+													<li><input type="submit" value="Mint" /></li>
+													<li><input type="reset" value="Reset" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
+                                    <h4>NFT Minting Checklist</h4>
+                                    <div class="row">
+										<div class="col-6 col-12-medium">
+											<ul>
+												<li>Ensure all fields have been filled.</li>
+												<li>Make sure a <a href="#">supported file type</a> has been uploaded.</li>
+												<li>Check inputs for trailing spaces.</li>
+                                                <li>Confirm the <a href="#">primary account for the designated seed is opened</a>.</li>
+											</ul>
+                                        </div>
+                                        <div class="col-6 col-12-medium">
+											<ul>
+												<li>Get your Key and Secret from your preferred <a href="#">IPFS service</a>.</li>
+												<li>Make sure 'pinfile' and 'pinjson' endpoint permissions are enabled.</li>
+                                                <li>Check you IPFS key has unlimited uses set.</li>
+												<li>If minting with a new seed - please <a href="#">contact us</a> to have the minting address whitelisted.</li>
+											</ul>
+                                        </div>
+                                    </div>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://chat.banano.cc/" class="icon brands fa-discord"><span class="label">Discord</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<p class="copyright">&copy; Banano MINT. 2022<br>A joint venture by <a href="https://github.com/jetstream0" target="_blank">PRUSSIA</a> & <a href="https://github.com/HelloMokuzai" target="_blank">MKZI</a></p>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
