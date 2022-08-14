@@ -6,7 +6,7 @@ View, Send and Create NFTs on the BANANO cryptocurrency network!
 
 Visit: https://hellomokuzai.github.io/banano-mint/
 
-Banano MINT is a website portal leveraging the Banano NFT Metaprotocol to allow users to create, view and send NFTs on the BANANO block-lattice.
+Banano MINT is a website portal leveraging the [Banano NFT Metaprotocol](https://github.com/Airtune/73-meta-tokens) to allow users to create, view and send NFTs on the BANANO block-lattice.
 
 ## TO CONTRIBUTE:
 
