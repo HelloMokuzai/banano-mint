@@ -3665,8 +3665,27 @@ input, select, textarea {
 
 		.fail.msg-container {
 			display: none;
+			color: #ff3232;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 400;
+			letter-spacing: 0.1em;
+			line-height: 1.65;
+			margin: 0 0 2em 0;
+			border: solid 3px rgba(255, 50, 50, 0.3);
+			padding: 0.5em 0 0.5em 1em;
+			text-transform: uppercase;
 		}
 
 		.success.msg-container {
 			display: none;
+			color: #58f587;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 400;
+			letter-spacing: 0.1em;
+			line-height: 1.65;
+			margin: 0 0 2em 0;
+			border: solid 3px rgba(88, 245, 135, 0.3);
+			padding: 0.5em 0 0.5em 1em;
+			text-transform: uppercase;
+			
 		}
