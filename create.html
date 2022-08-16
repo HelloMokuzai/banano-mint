@@ -9,9 +9,11 @@
 		<meta property="og:url" content="https://hellomokuzai.github.io/banano-mint/">
 		<meta property="og:image" content="https://raw.githubusercontent.com/HelloMokuzai/banano-mint/main/images/Mint.png">
 		<meta property="og:description" content="View, Send & Create NFT's on the BANANO network!">
-		<meta name="banano"  content="ban_3j8gwrkc7qgx11rrncdw8bzuuo4ojwp3xkawspefm3sbac3s5i6f48dgewfd"/>
+		<meta name="banano" content="ban_3j8gwrkc7qgx11rrncdw8bzuuo4ojwp3xkawspefm3sbac3s5i6f48dgewfd"/>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="/assets/js/libs/banano.js"></script>
+    <script src="/assets/js/libs/b68.js"></script>
 	</head>
 	<body class="single is-preload">
 
@@ -92,34 +94,38 @@
 									</div>
 								</header>
 								<h3>NFT Creator - V1.0</h3>
-									<form method="post" action="#">
+								  <div class="fail msg-container">
+										<p id="fail-msg"></p>
+									</div>
+									<div class="success msg-container">
+										<p>Success: Set the account's (account should be the one from the seed inputted) rep to <span id="nft-rep"></span> during the send and the NFT will mint+send.</p>
+									</div>
+									<form>
 										<div class="row gtr-uniform">
 											<div class="col-6 col-12-xsmall">
-												<input type="text" name="NFT-name" id="name" value="" placeholder="NFT Name" />
+												<input type="text" name="NFT-name" id="name" value="" placeholder="NFT Name" required />
 											</div>
 											<div class="col-6 col-12-xsmall">
-												<input type="text" name="NFT-seed" id="seed" value="" placeholder="Seed" />
+												<input type="text" name="NFT-seed" id="seed" value="" placeholder="Seed" required />
 											</div>
                                             <div class="col-12">
-												<textarea name="NFT-description" id="description" placeholder="Enter your message" rows="6"></textarea>
+												<textarea name="NFT-description" id="description" placeholder="Enter the description of the NFT" rows="6"></textarea>
 											</div>
 											<div class="col-12">
-												<form action="/submit_NFT.php">
-  													<input type="file" id="file" name="filename">
-												</form>
+  												<input type="file" id="file" name="filename">
 											</div>
                                             <div class="col-12">
 												<input type="text" name="NFT-supply" id="supply" value="" placeholder="Max Supply (0 for unlimited)" />
 											</div>
                                             <div class="col-6 col-12-xsmall">
-												<input type="text" name="API-key" id="key" value="" placeholder="API Key" />
+												<input type="text" name="API-key" id="key" value="" placeholder="API Key" required />
 											</div>
 											<div class="col-6 col-12-xsmall">
-												<input type="text" name="API-secret" id="secret" value="" placeholder="API Secret" />
+												<input type="text" name="API-secret" id="secret" value="" placeholder="API Secret" required />
 											</div>
 											<div class="col-12">
 												<ul class="actions">
-													<li><input type="submit" value="Mint" /></li>
+													<li><input type="button" value="Mint" onclick="mint()" /></li>
 													<li><input type="reset" value="Reset" /></li>
 												</ul>
 											</div>
@@ -167,6 +173,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/create.js"></script>
 
 	</body>
 </html>
