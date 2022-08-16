@@ -3662,3 +3662,11 @@ input, select, textarea {
 			}
 
 		}
+
+		.fail.msg-container {
+			display: none;
+		}
+
+		.success.msg-container {
+			display: none;
+		}
