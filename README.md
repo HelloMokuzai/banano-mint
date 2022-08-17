@@ -10,7 +10,7 @@ Banano MINT is a website portal leveraging the [Banano NFT Metaprotocol](https:/
 
 ## TO CONTRIBUTE:
 
-**If you wish to contribute to the repo, please feel free to create a pull request or** :love_letter: hellomokuzai@outlook.com
+**If you wish to contribute to the project, please feel free to create a pull request or** :love_letter: hellomokuzai@outlook.com
 
 *This project is maintained as a labour of love. However, if you wish to show your appreciation for our efforts - please feel free to donate BANANO (BAN) to the address below.*
 
