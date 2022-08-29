@@ -18,6 +18,7 @@ Banano MINT is a website portal leveraging the [Banano NFT Metaprotocol](https:/
 
 Aternatively, you can pay for a Premium supporters kit on the website to enjoy some additional perks whilst supporting development! :sparkling_heart:
 
+
 ![Donate](https://raw.githubusercontent.com/HelloMokuzai/banano-mint/main/images/qr_premium.png)
 
 
