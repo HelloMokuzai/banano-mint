@@ -168,8 +168,8 @@
                                                     </td>
 												</tr>
                                                 <tr>
-													<td width="50%"><center><button class="button" onclick="chimp()">REVEAL QR CODE</button><div id="chimp" style="display: none;"><p>&nbsp;</p><span class="image"><img src="images/qr-chimp.png" alt="" width="90%" height="90%" /><a class="button primary small fit" onclick="myFunction()";>Copy to Clipboard</a></span></div></center></td>
-													<td width="50%"><center><button class="button" onclick="ape()">REVEAL QR CODE</button><div id="ape" style="display: none;"><p>&nbsp;</p><span class="image"><img src="images/qr-ape.png" alt="" width="90%" height="90%" /><a class="button primary small fit" onclick="myFunction()";>Copy to Clipboard</a></span></div></center></td>
+													<td width="50%"><center><button class="button" onclick="chimp()">REVEAL QR CODE</button><div id="chimp" style="display: none;"><p>&nbsp;</p><span class="image"><img src="images/qr-chimp.png" alt="" width="90%" height="90%" /><a class="button small fit" onclick="myFunction()";>Copy to Clipboard</a></span></div></center></td>
+													<td width="50%"><center><button class="button" onclick="ape()">REVEAL QR CODE</button><div id="ape" style="display: none;"><p>&nbsp;</p><span class="image"><img src="images/qr-ape.png" alt="" width="90%" height="90%" /><a class="button small fit" onclick="myFunction()";>Copy to Clipboard</a></span></div></center></td>
 												</tr>
 												<tr>
 													<td width="50%"><center><a href="banano:ban_3pdripjhteyymwjnaspc5nd96gyxgcdxcskiwwwoqxttnrncrxi974riid94?amount=10000000000000000000000000000000" class="button">Open in Wallet</a></center></td>
@@ -208,8 +208,8 @@
                                                     </td>
 												</tr>
                                                 <tr>
-													<td width="50%"><center><button class="button" onclick="gorilla()">REVEAL QR CODE</button><div id="gorilla" style="display: none;"><p>&nbsp;</p><span class="image"><p><img src="images/qr-gorilla.png" alt="" width="90%" height="90%" /><a class="button primary small fit" onclick="myFunction()";>Copy to Clipboard</a></span></div></center></td>
-                                                    <td width="50%"><center><button class="button" onclick="kong()">REVEAL QR CODE</button><div id="kong" style="display: none;"><p>&nbsp;</p><span class="image"><p><img src="images/qr-kong.png" alt="" width="90%" height="90%" /><a class="button primary small fit" onclick="myFunction()";>Copy to Clipboard</a></span></div></center></td>
+													<td width="50%"><center><button class="button" onclick="gorilla()">REVEAL QR CODE</button><div id="gorilla" style="display: none;"><p>&nbsp;</p><span class="image"><p><img src="images/qr-gorilla.png" alt="" width="90%" height="90%" /><a class="button small fit" onclick="myFunction()";>Copy to Clipboard</a></span></div></center></td>
+                                                    <td width="50%"><center><button class="button" onclick="kong()">REVEAL QR CODE</button><div id="kong" style="display: none;"><p>&nbsp;</p><span class="image"><p><img src="images/qr-kong.png" alt="" width="90%" height="90%" /><a class="button small fit" onclick="myFunction()";>Copy to Clipboard</a></span></div></center></td>
 												</tr>
 												<tr>
 													<td width="50%"><center><a href="banano:ban_3pdripjhteyymwjnaspc5nd96gyxgcdxcskiwwwoqxttnrncrxi974riid94?amount=60000000000000000000000000000000" class="button">Open in Wallet</a></center></td>
@@ -221,16 +221,15 @@
                                 <div class="row">
 										<div class="col-6 col-12-medium">
 											<h2>Donate Banano</h2>
-											<p><span class="image left"><img src="images/qr_premium.png" alt="" /><a class="button primary small fit" onclick="myFunction()";>Copy to Clipboard</a></span>This webpage is maintained as a labour of love. However, if you wish to show your appreciation for our efforts - please feel free to donate BANANO (BAN) to the address below.</p>
+											<p><span class="image left"><img src="images/qr_premium.png" alt="" /><a class="button small fit" onclick="myFunction()";>Copy to Clipboard</a></span>This webpage is maintained as a labour of love. However, if you wish to show your appreciation for our efforts - please feel free to donate BANANO (BAN) to the address below.</p>
                         		    
                         					<input type="text" value="ban_3pdripjhteyymwjnaspc5nd96gyxgcdxcskiwwwoqxttnrncrxi974riid94" id="myAddress">
-												<script>
+											<script>
 												function myFunction() {
  												var copyText = document.getElementById("myAddress");
   												copyText.select();
   												copyText.setSelectionRange(0, 99999)
   												document.execCommand("copy");
-  												alert("Copied to clipboard: " + copyText.value);
 												}
 											</script>
 				                			</p>
