@@ -21,4 +21,4 @@ Aternatively, you can pay for a Premium supporters kit on the website to enjoy s
 ![Donate](https://raw.githubusercontent.com/HelloMokuzai/banano-mint/main/images/qr_premium.png)
 
 
-A joint venture by MKZI⚡ & PRUSSIA
+BANANO MINT is a joint venture by MKZI⚡ & PRUSSIA for the Booster #2 development competition.
