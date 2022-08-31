@@ -12,6 +12,7 @@
 		<meta name="banano"  content="ban_3f3zko8b7j65rmewosdnyzkh6kcf5jgurezg75pfmm79poc4eyuxbre877fa"/>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<meta http-equiv="Content-Security-Policy" content="connect-src bannfts.prussiafan.club;">
 	</head>
 	<body class="single is-preload">
 
@@ -92,14 +93,14 @@
 									</div>
 								</header>
 								<h3>NFT Viewer - V1.0</h3>
-									<form method="post" action="#">
+									<form>
 										<div class="row gtr-uniform">
 											<div class="col-12">
-												<input type="text" name="NFT-address" id="adrress" value="" placeholder="Banano Address (ban_)" />
+												<input type="text" name="NFT-address" id="address" value="" placeholder="Banano Address (ban_)" />
 											</div>
 											<div class="col-12">
 												<ul class="actions">
-													<li><input type="submit" value="View" /></li>
+													<li><input type="button" value="View" onclick="get_nfts_for_account()" /></li>
 													<li><input type="reset" value="Reset" /></li>
 												</ul>
 											</div>
@@ -108,38 +109,38 @@
                                     
                                     <!-- NFT List EXAMPLE -->
 									<div class="box alt">
-										<div class="row gtr-uniform">
-											<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
+										<div class="row gtr-uniform" id="nft-list">
+											<div class="col-4" id="nft-1"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
                                             	<ul class="actions stacked">
 													<li><a href="#" class="button small fit icon solid fa-clock">History</a></li>
                                                 	<li><a href="#" class="button small fit icon solid fa-paper-plane">Transfer</a></li>
 												</ul>
                                             </div>
-											<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
+											<div class="col-4" id="nft-2"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
                                             	<ul class="actions stacked">
 													<li><a href="#" class="button small fit icon solid fa-clock">History</a></li>
                                                 	<li><a href="#" class="button small fit icon solid fa-paper-plane">Transfer</a></li>
 												</ul>
                                             </div>
-											<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
+											<div class="col-4" id="nft-3"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
                                             	<ul class="actions stacked">
 													<li><a href="#" class="button small fit icon solid fa-clock">History</a></li>
                                                 	<li><a href="#" class="button small fit icon solid fa-paper-plane">Transfer</a></li>
 												</ul>
                                             </div>
-											<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
+											<div class="col-4" id="nft-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
                                             	<ul class="actions stacked">
 													<li><a href="#" class="button small fit icon solid fa-clock">History</a></li>
                                                 	<li><a href="#" class="button small fit icon solid fa-paper-plane">Transfer</a></li>
 												</ul>
                                             </div>
-                                            <div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
+                                            <div class="col-4" id="nft-5"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
                                             	<ul class="actions stacked">
 													<li><a href="#" class="button small fit icon solid fa-clock">History</a></li>
                                                 	<li><a href="#" class="button small fit icon solid fa-paper-plane">Transfer</a></li>
 												</ul>
                                             </div>
-                                            <div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
+                                            <div class="col-4" id="nft-6"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
                                             	<ul class="actions stacked">
 													<li><a href="#" class="button small fit icon solid fa-clock">History</a></li>
                                                 	<li><a href="#" class="button small fit icon solid fa-paper-plane">Transfer</a></li>
@@ -172,6 +173,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/view.js"></script>
 
 	</body>
 </html>
